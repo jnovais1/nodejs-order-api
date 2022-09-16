@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "debug": "^4.3.4",
+    "express": "^4.18.1",
+    "guid": "^0.0.12",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^7.4.0",
+    "md5": "^2.3.0",
+    "mongoose": "^6.4.0",
+    "mysql": "^2.18.1"
+  },
+  "scripts": {
+    "dev": "node node_modules/nodemon/bin/nodemon mentions-api/bin/server",
+    "start": "node ./mentions-api/bin/server.js"
+  },
+  "name": "mentions-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
